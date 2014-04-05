@@ -7,13 +7,40 @@
 //
 
 #import "AppDelegate.h"
+#import "DirectionsTableViewController.h"
+@interface AppDelegate ()
 
+@property DirectionsTableViewController *directionView;
+@property UINavigationController *navigationController;
+
+@end
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self createDirectionsViewController];
+    //[self.window add
+   /* UITabBarController *tbc = [[UITabBarController alloc] init];
+    [tbc setViewControllers:[NSArray arrayWithObjects:self.directionView,nil]];
+    
+    [self.window addSubview:tbc.view];
+    [self.window makeKeyAndVisible];
+    [self.window setRootViewController:tbc];*/
+    
+    self.navigationController = [[UINavigationController alloc] init];
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
+    [self.navigationController pushViewController:self.directionView  animated:NO];
+    // Override point for customization after application launch.
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)createDirectionsViewController
+{
+    self.directionView = [[DirectionsTableViewController alloc] initWithNibName:@"DirectionsTableView" bundle:[NSBundle mainBundle]];
+    self.directionView.title = @"Directions";
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

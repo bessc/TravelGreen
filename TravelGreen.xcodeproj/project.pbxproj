@@ -22,6 +22,13 @@
 		8CB89BE818F046A9008B20C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB89BC718F046A9008B20C4 /* UIKit.framework */; };
 		8CB89BF018F046A9008B20C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CB89BEE18F046A9008B20C4 /* InfoPlist.strings */; };
 		8CB89BF218F046A9008B20C4 /* TravelGreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB89BF118F046A9008B20C4 /* TravelGreenTests.m */; };
+		8CB89BFD18F04AD5008B20C4 /* DirectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB89BFC18F04AD5008B20C4 /* DirectionsTableViewController.m */; };
+		8CB89BFF18F04B2E008B20C4 /* DirectionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB89BFE18F04B2E008B20C4 /* DirectionsTableViewCell.xib */; };
+		8CB89C0118F05162008B20C4 /* DirectionsTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB89C0018F05162008B20C4 /* DirectionsTableView.xib */; };
+		8CB89C0418F06B4E008B20C4 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB89C0318F06B4E008B20C4 /* yellow.png */; };
+		8CB89C0718F07FD1008B20C4 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB89C0618F07FD1008B20C4 /* Route.m */; };
+		8CB89C0B18F0910E008B20C4 /* RouteDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB89C0918F0910E008B20C4 /* RouteDetailsViewController.m */; };
+		8CB89C0C18F0910E008B20C4 /* RouteDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB89C0A18F0910E008B20C4 /* RouteDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,16 @@
 		8CB89BED18F046A9008B20C4 /* TravelGreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelGreenTests-Info.plist"; sourceTree = "<group>"; };
 		8CB89BEF18F046A9008B20C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8CB89BF118F046A9008B20C4 /* TravelGreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelGreenTests.m; sourceTree = "<group>"; };
+		8CB89BFB18F04AD5008B20C4 /* DirectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionsTableViewController.h; sourceTree = "<group>"; };
+		8CB89BFC18F04AD5008B20C4 /* DirectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionsTableViewController.m; sourceTree = "<group>"; };
+		8CB89BFE18F04B2E008B20C4 /* DirectionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectionsTableViewCell.xib; sourceTree = "<group>"; };
+		8CB89C0018F05162008B20C4 /* DirectionsTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectionsTableView.xib; sourceTree = "<group>"; };
+		8CB89C0318F06B4E008B20C4 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		8CB89C0518F07FD1008B20C4 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		8CB89C0618F07FD1008B20C4 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		8CB89C0818F0910E008B20C4 /* RouteDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDetailsViewController.h; sourceTree = "<group>"; };
+		8CB89C0918F0910E008B20C4 /* RouteDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDetailsViewController.m; sourceTree = "<group>"; };
+		8CB89C0A18F0910E008B20C4 /* RouteDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +131,7 @@
 		8CB89BC918F046A9008B20C4 /* TravelGreen */ = {
 			isa = PBXGroup;
 			children = (
+				8CB89C0218F06460008B20C4 /* XIBs */,
 				8CB89BD218F046A9008B20C4 /* AppDelegate.h */,
 				8CB89BD318F046A9008B20C4 /* AppDelegate.m */,
 				8CB89BD518F046A9008B20C4 /* Main_iPhone.storyboard */,
@@ -121,7 +139,15 @@
 				8CB89BDB18F046A9008B20C4 /* ViewController.h */,
 				8CB89BDC18F046A9008B20C4 /* ViewController.m */,
 				8CB89BDE18F046A9008B20C4 /* Images.xcassets */,
+				8CB89BFB18F04AD5008B20C4 /* DirectionsTableViewController.h */,
+				8CB89BFC18F04AD5008B20C4 /* DirectionsTableViewController.m */,
+				8CB89C0318F06B4E008B20C4 /* yellow.png */,
 				8CB89BCA18F046A9008B20C4 /* Supporting Files */,
+				8CB89C0518F07FD1008B20C4 /* Route.h */,
+				8CB89C0618F07FD1008B20C4 /* Route.m */,
+				8CB89C0818F0910E008B20C4 /* RouteDetailsViewController.h */,
+				8CB89C0918F0910E008B20C4 /* RouteDetailsViewController.m */,
+				8CB89C0A18F0910E008B20C4 /* RouteDetailsViewController.xib */,
 			);
 			path = TravelGreen;
 			sourceTree = "<group>";
@@ -153,6 +179,15 @@
 				8CB89BEE18F046A9008B20C4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CB89C0218F06460008B20C4 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				8CB89C0018F05162008B20C4 /* DirectionsTableView.xib */,
+				8CB89BFE18F04B2E008B20C4 /* DirectionsTableViewCell.xib */,
+			);
+			name = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB89BDA18F046A9008B20C4 /* Main_iPad.storyboard in Resources */,
+				8CB89C0118F05162008B20C4 /* DirectionsTableView.xib in Resources */,
 				8CB89BDF18F046A9008B20C4 /* Images.xcassets in Resources */,
+				8CB89C0C18F0910E008B20C4 /* RouteDetailsViewController.xib in Resources */,
+				8CB89BFF18F04B2E008B20C4 /* DirectionsTableViewCell.xib in Resources */,
 				8CB89BD718F046A9008B20C4 /* Main_iPhone.storyboard in Resources */,
 				8CB89BCE18F046A9008B20C4 /* InfoPlist.strings in Resources */,
+				8CB89C0418F06B4E008B20C4 /* yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB89C0718F07FD1008B20C4 /* Route.m in Sources */,
 				8CB89BDD18F046A9008B20C4 /* ViewController.m in Sources */,
 				8CB89BD418F046A9008B20C4 /* AppDelegate.m in Sources */,
+				8CB89C0B18F0910E008B20C4 /* RouteDetailsViewController.m in Sources */,
+				8CB89BFD18F04AD5008B20C4 /* DirectionsTableViewController.m in Sources */,
 				8CB89BD018F046A9008B20C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
