@@ -18,7 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [GMSServices provideAPIKey:@"AIzaSyBeiruW8tn-9bwuHNqp65nkF7LKc7dCfmE"];
     // Override point for customization after application launch.
     [self createDirectionsViewController];
     //[self.window add
